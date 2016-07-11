@@ -2,6 +2,7 @@
 
 const expect = require('chai').expect
 const supertest = require('supertest')
+const app = require('../app')
 const api = supertest('http://localhost:3000')
 
 describe('GET /candies', function () {
